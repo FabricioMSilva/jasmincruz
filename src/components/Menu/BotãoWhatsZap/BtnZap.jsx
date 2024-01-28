@@ -31,7 +31,7 @@ export default BtnZap => {
             :null}
 
             <BtnZapZap>
-                <img alt="" src={Logo}onClick={Ativo}></img>
+                <img alt="" src={Logo} onClick={Ativo}></img>
                 <div class="wrapper"></div>
             </BtnZapZap>
  
