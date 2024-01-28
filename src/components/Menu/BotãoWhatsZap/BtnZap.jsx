@@ -5,7 +5,7 @@ import { KitZap,BtnZapZap, CaixaTexto, Cabecalho, InputTexto } from '../../style
 import { AiOutlineSend } from "react-icons/ai";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 import { useState } from 'react';
-export default BtnZap=() => {
+function BtnZap()  {
     const [showElement, setShowElement] = useState(false)
     const Ativo = () => setShowElement(true)
     const Desativo =()=>setShowElement(false)
@@ -41,3 +41,4 @@ return(
         </KitZap>
     )
 }
+export default BtnZap();
