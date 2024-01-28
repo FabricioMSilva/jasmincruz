@@ -1,11 +1,11 @@
 import Logo from '../BotãoWhatsZap/whats.png';
 import Jasmin from '../../Imagens/LogoJasmin.png';
-import ReactWhatsapp from 'react-whatsapp';
+
 import { KitZap,BtnZapZap, CaixaTexto, Cabecalho, InputTexto } from '../../styled/BtnwhatsZap';
 import { AiOutlineSend } from "react-icons/ai";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 import { useState } from 'react';
-export default BtnZap => {
+export default BtnZap=() => {
     const [showElement, setShowElement] = useState(false)
     const Ativo = () => setShowElement(true)
     const Desativo =()=>setShowElement(false)
@@ -28,7 +28,7 @@ return(
                 <InputTexto >
                     <input type='text' onChange={inputControlado} placeholder='Digite sua mensagem'>
                     </input>
-                    <a target="_blank" href={(`https://wa.me/5524981112790/?text=Oi Jasmin ${Menssagem}`)} onClick={Desativo} > 
+                    <a target="_blank"rel="noreferrer" href={(`https://wa.me/5524981112790/?text=Oi Jasmin ${Menssagem}`)} onClick={Desativo} > 
                     <AiOutlineSend size={25}   /></a>
                 </InputTexto>
             </CaixaTexto>
