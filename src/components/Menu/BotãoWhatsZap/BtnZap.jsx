@@ -29,7 +29,7 @@ return(
                     onChange={(e)=> setMenssagem(e.target.value)} 
                     placeholder='Digite sua mensagem'
                     ></input>
-                    <a href={`https://wa.me//5524993081222?text=Ola JasminCruz, ${Menssagem}`}target="_blank" >
+                    <a href={`https://wa.me//5524993081222?text=Ola JasminCruz, ${Menssagem}`}target="_blank" rel="noreferrer" >
                     <AiOutlineSend size={25} onSubmit={inputControlado}  /></a>
                 </InputTexto>
             </CaixaTexto>
