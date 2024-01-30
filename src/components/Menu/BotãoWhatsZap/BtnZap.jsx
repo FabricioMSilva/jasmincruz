@@ -5,13 +5,17 @@ import { KitZap,BtnZapZap, CaixaTexto, Cabecalho, InputTexto } from '../../style
 import { AiOutlineSend } from "react-icons/ai";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 import { useState } from 'react';
-export default BtnZap => {
+function BtnZap()  {
     const [showElement, setShowElement] = useState(false)
     const Ativo = () => setShowElement(true)
     const Desativo =()=>setShowElement(false)
-    const [menssagem, setmensagem] = useState("");
+    const [Menssagem, setMenssagem] = useState("");
    
-    return (
+    const inputControlado = (event)=>{
+        setMenssagem(event.target.value);
+}
+
+return( 
         <KitZap>
            {showElement? 
             <CaixaTexto >
@@ -22,15 +26,14 @@ export default BtnZap => {
                 </Cabecalho>
                 <InputTexto >
                     <input type='text'
-                    onChange={(e)=> setmensagem(e.target.value)} 
+                    onChange={(e)=> setMenssagem(e.target.value)} 
                     placeholder='Digite sua mensagem'
                     ></input>
-                    <a href={`https://wa.me//5524993081222?text=Ola JasminCruz, ${menssagem}`}target="_blank" >
-                    <AiOutlineSend size={25} onClick={Desativo}  /></a>
+                    <a href={`https://wa.me//5524993081222?text=Ola JasminCruz, ${Menssagem}`}target="_blank" >
+                    <AiOutlineSend size={25} onSubmit={inputControlado}  /></a>
                 </InputTexto>
             </CaixaTexto>
             :null}
-
             <BtnZapZap>
                 <img alt="" src={Logo} onClick={Ativo}></img>
                 <div class="wrapper"></div>
@@ -39,3 +42,4 @@ export default BtnZap => {
         </KitZap>
     )
 }
+export default BtnZap();
