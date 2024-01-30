@@ -59,7 +59,7 @@ export const Cadastro = styled.div`
   width:80%;
   height:40px;
   border-radius: 4% 4% 4% 4%;
-  text-align:left;
+  text-align:center;
   font-size: 28px;
  }
  .descricao{
