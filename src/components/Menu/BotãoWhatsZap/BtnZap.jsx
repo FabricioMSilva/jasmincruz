@@ -9,12 +9,11 @@ function BtnZap()  {
     const [showElement, setShowElement] = useState(false)
     const Ativo = () => setShowElement(true)
     const Desativo =()=>setShowElement(false)
-
-    const[Menssagem,setMenssagem] = useState("");
-  
+    const [Menssagem, setMenssagem] = useState("");
+   
     const inputControlado = (event)=>{
-          setMenssagem(event.target.value);
-};
+        setMenssagem(event.target.value);
+}
 
 return( 
         <KitZap>
@@ -26,10 +25,12 @@ return(
                     <IoMdCloseCircleOutline size={25} onClick={Desativo} />
                 </Cabecalho>
                 <InputTexto >
-                    <input type='text' onChange={inputControlado} placeholder='Digite sua mensagem'>
-                    </input>
-                    <a target="_blank"rel="noreferrer" href={(`https://wa.me/5524981112790/?text=Oi Jasmin ${Menssagem}`)} onClick={Desativo} > 
-                    <AiOutlineSend size={25}   /></a>
+                    <input type='text'
+                    onChange={(e)=> setMenssagem(e.target.value)} 
+                    placeholder='Digite sua mensagem'
+                    ></input>
+                    <a href={`https://wa.me//5524993081222?text=Ola JasminCruz, ${Menssagem}`}target="_blank" >
+                    <AiOutlineSend size={25} onSubmit={inputControlado}  /></a>
                 </InputTexto>
             </CaixaTexto>
             :null}
