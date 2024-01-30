@@ -16,12 +16,12 @@ function App() {
     <Geral>
       <Router>
         <Headers />
-          <Routes>
-           <Route exact path="/" element={<PaginaInicial />}></Route>
-           <Route exact path="/Empresa" element={<Empresa />}></Route>
-           <Route exact path="/Contato" element={<Contato />}></Route>
-           <Route exact path="/Clientes" element={<Clientes />}></Route>
-          </Routes>
+        <Routes>
+          <Route exact path="/" element={<PaginaInicial />}></Route>
+          <Route exact path="/Empresa" element={<Empresa />}></Route>
+          <Route exact path="/Contato" element={<Contato />}></Route>
+          <Route exact path="/Clientes" element={<Clientes />}></Route>
+        </Routes>
         <BtnWhats />
         <Footer />
       </Router>

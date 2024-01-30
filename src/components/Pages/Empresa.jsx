@@ -16,20 +16,20 @@ function Empresa() {
                     </span>
                 </TextoAnimado>
                 <Imagem className='div1' ><img alt='' src={Foto1} /></Imagem>
-               
+
                 <TextoAnimado className='div4'>
                     <span>Somos uma empresa especializada em logística é roteirização que faz toda a diferença na qualidade do serviço prestado ao cliente, impactando na sua experiência e também reduzindo os custos logísticos do seu negócio.
                     </span>
-                </TextoAnimado> 
+                </TextoAnimado>
                 <Imagem className='div5' ><img alt='' src={Foto2} /></Imagem>
-                  
+
                 <TextoAnimado className='div7'>
                     <span>
                         Qualidade e agilidade em locação de veículo com motorista para pessoas físicas e jurídicas.
                         A JasmimCruz disponibiliza veículos com a mais alta performance do mercado.
                     </span>
                 </TextoAnimado>
-                <Imagem className='div6'><img alt='' src={Foto3}  /></Imagem>
+                <Imagem className='div6'><img alt='' src={Foto3} /></Imagem>
             </TextoEmpresa>
             <Foto src={foto} />
         </Avo>

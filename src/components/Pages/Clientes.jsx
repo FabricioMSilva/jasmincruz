@@ -1,4 +1,4 @@
-import { Avo, Logos, Logo} from '../styled/Clientes.js';
+import { Avo, Logos, Logo } from '../styled/Clientes.js';
 import Michelin from '../Imagens/empresas/michelin.png';
 import Bradesco from '../Imagens/empresas/bradesco.png';
 import Huyndai from '../Imagens/empresas/huyndai.png';
@@ -10,7 +10,7 @@ import Texto01 from '../Pages/Texto1.jsx';
 function Clientes() {
     return (
         <Avo>
-<Texto01/>
+            <Texto01 />
             <Logos>
                 <Logo className='div1' ><img alt='' src={Bradesco}></img></Logo>
                 <Logo className='div2' ><img alt='' src={Michelin}></img></Logo>
