@@ -4,8 +4,8 @@ export const KitZap = styled.div`
 display:flex;
 justify-content:center;
 align-items:center;
- flex-direction:column;
- position:fixed;
+flex-direction:column;
+position:fixed;
 width:450px;
 height:300px;
 pointer-events:0;
