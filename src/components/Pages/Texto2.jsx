@@ -1,5 +1,5 @@
 import { Avo, Texto2 } from '../styled/Texto.js';
-import Fade from 'react-bootstrap/Fade';
+
 
 function Texto02() {
 

@@ -9,7 +9,7 @@ function Contato() {
     const [Descricao, setDescricao] = useState('');
     function EnviarEmail(e){
         e.preventDefault();
-        if (Name==="" || Email=="" || Descricao=="" ){
+        if (Name==="" || Email==="" || Descricao==="" ){
             alert('Preencha todos os campos');
             return;
         }

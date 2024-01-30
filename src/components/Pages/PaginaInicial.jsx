@@ -9,7 +9,7 @@ function home() {
         <>
           <Avo>
              <div>
-                <img src={fotoLogo1}></img>
+                <img alt="" src={fotoLogo1}></img>
              </div>
           </Avo>
           <Empresa/>
