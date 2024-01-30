@@ -1,5 +1,5 @@
 import { Avo, Cadastro, Nome, Telefone, Menssagem, BtnEnviar, Enderecos, Logotipo } from '../styled/Contato.js';
-import {React,useState}from 'react';
+import { React, useState } from 'react';
 import logo from '../Imagens/LogoJasmin.png';
 
 
@@ -7,9 +7,9 @@ function Contato() {
     const [Name, setName] = useState('');
     const [Email, setEmail] = useState('');
     const [Descricao, setDescricao] = useState('');
-    function EnviarEmail(e){
+    function EnviarEmail(e) {
         e.preventDefault();
-        if (Name==="" || Email==="" || Descricao==="" ){
+        if (Name === "" || Email === "" || Descricao === "") {
             alert('Preencha todos os campos');
             return;
         }
@@ -47,7 +47,7 @@ function Contato() {
                             <input type="email"
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder='example@example.com'
-                              
+
                                 value={Email}>
                             </input>
                         </label>
@@ -55,21 +55,21 @@ function Contato() {
                     <Menssagem>
                         <label>
                             <div>O que deseja?</div>
-                            <input 
-                            cols="30" rows="5"
-                            contenteditable="true"
-                            className='descricao' 
-                            onChange={(e) => setDescricao(e.target.value)}
-                            value={Descricao}
-                            placeholder='Digite sua necessidade'
+                            <input
+                                cols="30" rows="5"
+                                contenteditable="true"
+                                className='descricao'
+                                onChange={(e) => setDescricao(e.target.value)}
+                                value={Descricao}
+                                placeholder='Digite sua necessidade'
                             ></input>
-                        </label> 
-                    
+                        </label>
+
                         <BtnEnviar>
-                           <input 
-                            className="button"
-                            type="submit" 
-                            value="Enviar"/>
+                            <input
+                                className="button"
+                                type="submit"
+                                value="Enviar" />
                         </BtnEnviar>
                     </Menssagem>
                 </form>

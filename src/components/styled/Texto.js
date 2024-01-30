@@ -22,7 +22,7 @@ width:60vw;
   margin-top:0vw;   
   width:80vw;
 }
-`;                                                           
+`;
 export const Texto2 = styled.div`
 
 
