@@ -42,4 +42,4 @@ return(
         </KitZap>
     )
 }
-export default BtnZap();
+export default BtnZap;
