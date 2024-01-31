@@ -31,7 +31,7 @@ function Empresa() {
                 </TextoAnimado>
                 <Imagem className='div6'><img alt='' src={Foto3} /></Imagem>
             </TextoEmpresa>
-            <Foto src={foto} />
+            
         </Avo>
     )
 }

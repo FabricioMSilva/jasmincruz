@@ -7,11 +7,14 @@ export const MenuBar = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  cursor: default !important;
   color: white;
   width: 80vw;
+  margin-top: 10vh;
   margin-bottom: 4vmin;
   margin-left: 10vw;
+font-size: 12v;
+
   @media (max-width: 400px){
     width: 100%;
     height: 50px;
@@ -23,7 +26,7 @@ export const MenuBar = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 5vh;
   width: 80vw; 
 }
  nav {
@@ -31,10 +34,14 @@ export const MenuBar = styled.div`
   justify-content: center;
   align-items: center;
   width: 80vw;
-  height: 100%;
+
 }
 header nav ul {
   display: flex;
+  
+  justify-content:space-around;
+
+  width: 80vw;
 }
 header nav ul li {
   list-style: none;
@@ -42,15 +49,19 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: white;
+ 
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif ;
-  font-size: 2rem;
-  padding: 2.0rem;
+  font-size: 1rem;
+  padding: 0rem;
+
   transition: all 250ms linear 0s;
- 
+
 }
 header nav ul li a:hover {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
+  height: 30px;
+ 
 }
 header nav ul li a{
   position: relative;

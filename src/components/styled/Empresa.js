@@ -13,8 +13,8 @@ export const Avo = styled.div`
   height:min-content;
   justify-content:center;align-items:center;
   @media(max-width:1400px){
-    width:100vw;
-    margin-left:0vw;
+    width:80vw;
+    margin-left:20vw;
     margin-top:20vh;
     margin-bottom:10vh;
   }
@@ -42,10 +42,10 @@ img{
 }
 
 @media(max-width:1400px){
-    width:400px;
-    height:224px;
-    margin-left:3vh;
-    margin-right:3vh;
+    width:260px;
+    height:160px;
+    margin-left:1vh;
+    margin-right:1vh;
     outline: 1px solid white;
 outline-offset: 4px;
 
