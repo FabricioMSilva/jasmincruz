@@ -11,7 +11,7 @@ div{
     margin-bottom:10vh;
 }
 img{
-    width:100%;
+    width:80vw;
     border-radius:12px 12px 12px 12px ;
 }
 @media(max-width:1400px){
@@ -19,14 +19,19 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100vw;
+    width:80vw;
     margin-top:2vw;
-    margin-left:0vw;
+    margin-left:10vw;
     margin-bottom:10vh;
+    border-bottom:solid 1px white;
+    border-top:solid 1px white;
+    
 }
 img{
     width:100%;
-    border-radius:0px ;
+   
+   
+    
     margin-left:3vh;
     margin-right:3vh;
     margin-bottom:1%;
