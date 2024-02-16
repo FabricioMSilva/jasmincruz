@@ -22,10 +22,7 @@ img{
     width:80vw;
     margin-top:2vw;
     margin-left:10vw;
-    margin-bottom:10vh;
-    border-bottom:solid 1px white;
-    border-top:solid 1px white;
-    
+    margin-bottom:10vh;    
 }
 img{
     width:100%;

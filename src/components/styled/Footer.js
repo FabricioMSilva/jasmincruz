@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Footer = styled.div`
-border: 3px solid white;
+border: 1px solid white;
   display: flex;
 width:80vw;
 margin-left:10vw;
 margin-bottom:10vw;
-height:30vh;
+height:45vh;
 justify-content: center;
 align-items:center;
 border-radius: 50px;
@@ -35,7 +35,7 @@ export const PaiIcon = styled.div`
 
 `;
 export const DivIconIns = styled.div`
-  font-size:20pt;
+  font-size:1rem;
  display: inline-flex;
  justify-content:center;
  align-items:center;
@@ -49,7 +49,7 @@ export const DivIconIns = styled.div`
    justify-content: center;
    width: 150px;
    height: 50px;
-   font-size:20pt;
+   font-size:1rem;
    color: white;
    background-color:transparent!important;
  }
@@ -78,7 +78,7 @@ height: 35px;
  
 `;
 export const DivIconLin = styled.div`
-    font-size:20pt;
+    font-size:1rem;
   display: inline-flex;
  justify-content:center;
  align-items:center;
@@ -89,7 +89,7 @@ export const DivIconLin = styled.div`
    justify-content: center;
    width: 150px;
    height: 50px;
-   font-size:20pt;
+   font-size:1rem;
    color: white;
   
  }
@@ -107,7 +107,7 @@ export const DivEnd = styled.div`
   display: flex;
 align-items: center;
 justify-content: space-around;
-
+font-size:1rem;
 p{
    margin-top:-5px;
 }
@@ -117,7 +117,7 @@ div{
     justify-content:center;
     align-items:center;
     width: 44%;}
-    font-size:18pt;
+    font-size:1rem;
 span{
     
     width:100%;

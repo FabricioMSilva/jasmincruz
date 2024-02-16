@@ -13,7 +13,7 @@ export const MenuBar = styled.div`
   margin-top: 10vh;
   margin-bottom: 4vmin;
   margin-left: 10vw;
-font-size: 12v;
+font-size: 1.2rem;
 
   @media (max-width: 400px){
     width: 100%;

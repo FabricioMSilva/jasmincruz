@@ -9,8 +9,8 @@ export const Avo = styled.div`
   margin:3vw 10vw -5vh;
   justify-content:center;
   align-items:flex-start;
-  font-size: 130%;
-  font-weight: 300;
+  font-size: 1rem;
+
   color: white;
   @media(max-width:420px){
     width:100vw;
@@ -47,11 +47,11 @@ export const Cadastro = styled.div`
  }
  div{
   text-align:left;
-  font-size: 28px;
+  font-size: 1rem;
  }
  p{
   text-align:center;
-  font-size: 1000px;
+  font-size: 1.2rem;
   width:100%;
   height:50px;
  }
@@ -60,7 +60,7 @@ export const Cadastro = styled.div`
   height:40px;
   border-radius: 4% 4% 4% 4%;
   text-align:center;
-  font-size: 28px;
+  font-size: 1.2rem;
  }
  .descricao{
   height:80px;
@@ -108,7 +108,7 @@ export const Logotipo = styled.div`
   }
 p{
   font-family: 'Literata';
-  font-size: 60px;
+  font-size: 2.2rem;
  margin-top:-70px;
   bottom:0;
   
@@ -131,7 +131,7 @@ p{
     text-align:center;
     margin-top:0.1vh;
     width:80vw;
-    font-size:20pt;
+    font-size: 1.2rem;
     text-shadow:0 1px 1px;
    
   }
@@ -151,7 +151,7 @@ export const Nome = styled.div`
     height:25vh;}
     p{
       font-family: 'Literata';
-      font-size: 40px;
+      font-size: 1.2rem;
       color:white;
       text-align:center;
     }
@@ -162,7 +162,10 @@ export const Nome = styled.div`
     }
     input{
       text-align:center;
-    }
+     
+    } ::placeholder{
+        font-size: 1rem;
+      }
     @media(max-width:420px){
     
     margin:0;
@@ -178,7 +181,7 @@ export const Nome = styled.div`
     height:18vh;
     p{
       font-family: 'Literata';
-      font-size: 20pt;
+      font-size: 1.2rem;
       
       color:white;
       text-align:center;
@@ -188,7 +191,7 @@ export const Nome = styled.div`
     display:flex;
     text-align:left;
     width:80vw;
-    font-size:16pt;
+    font-size: 1.2rem;
     text-shadow:0 1px 1px;
    }
   input{
@@ -196,7 +199,7 @@ export const Nome = styled.div`
     height:40px;
     border-radius: 4% 4% 4% 4%;
     text-align:left;
-    font-size: 18px;
+    font-size: 1.2rem;
     text-align:center;
     
   }
@@ -207,6 +210,7 @@ export const Nome = styled.div`
 export const Telefone = styled.div`
     width:40vw;
   height:25vh;
+  
   display:flex;
   justify-content:center;
   align-items:center;
@@ -217,7 +221,7 @@ export const Telefone = styled.div`
     height:25vh;}
     p{
       font-family: 'Literata';
-      font-size: 40px;
+      font-size: 1.2rem;
       color:white;
       text-align:center;
     }
@@ -228,7 +232,11 @@ export const Telefone = styled.div`
     }
     input{
       text-align:center;
+      font-size: 1.2rem;
     }
+    ::placeholder{
+        font-size: 1rem;
+      }
     @media(max-width:420px){
     
       label{
@@ -240,8 +248,7 @@ export const Telefone = styled.div`
     height:15vh;
     p{
       font-family: 'Literata';
-      font-size: 20px;
-     
+      font-size: 1.2rem;
       color:white;
       text-align:center;
       height:4vh;
@@ -250,7 +257,7 @@ export const Telefone = styled.div`
     display:flex;
     text-align:left;
     width:80vw;
-    font-size:16pt;
+    font-size: 1.2rem;
     text-shadow:0 1px 1px;
    }
   input{
@@ -258,7 +265,7 @@ export const Telefone = styled.div`
     height:40px;
     border-radius: 4% 4% 4% 4%;
     text-align:center;
-    font-size: 18px;
+    font-size: 1.2rem;
   }
 
   }}
@@ -272,6 +279,7 @@ export const Menssagem = styled.div`
   flex-direction:column;
   justify-content:center;
   align-items:center;
+  margin-top:20px;
   label{
     display:flex;
     flex-direction:column;
@@ -279,16 +287,19 @@ export const Menssagem = styled.div`
     height:25vh;
     p{
       font-family: 'Literata';
-      font-size: 40px;
+      font-size: 1.2rem;
       color:white;
       text-align:center;
     }
     div{
       text-align:left;
-
+      font-size: 1rem;
       width:57vh;
       text-shadow:0 1px 1px;
     }
+    ::placeholder{
+        font-size: 1rem;
+      }
     @media(max-width:420px){
     
     label{
@@ -303,7 +314,7 @@ export const Menssagem = styled.div`
     display:flex;
     text-align:left;
     width:80vw;
-    font-size:16pt;
+    font-size: 1.2rem;
     text-shadow:0 1px 1px;
 
 }
@@ -312,7 +323,7 @@ input{
   height:40px;
   border-radius: 4% 4% 4% 4%;
   text-align:center;
-  font-size: 18px;
+  font-size: 1rem;
   border:1px white solid;
   
 }
@@ -333,7 +344,7 @@ h1 {
 
   text-align: center;
   color: blue;
-  font-size: 1px;
+  font-size: 1.2rem;
   font-family: "Cormorant Garamond", serif;
 }
 
@@ -341,7 +352,7 @@ p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.2rem;
   color: #676767;
 }
 .frame {
@@ -373,7 +384,7 @@ button {
   outline: none;
 }
 .btn-5 {
-  font-size: 25px;
+  font-size: 1.2rem;
   width: 130px;
   height: 40px;
 

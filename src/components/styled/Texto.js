@@ -13,7 +13,7 @@ export const Avo = styled.div`
 `;
 export const Texto = styled.div`
 display:flex;                         margin-top:10vw;   
-font-size: 30pt;
+font-size: 1.2rem;
 color: white;
 width:60vw;
 
@@ -28,14 +28,10 @@ export const Texto2 = styled.div`
 
 bottom: 0;
 margin-top:10vw;   
-font-family: Georgia, serif;
-font-size:16pt;
-letter-spacing: 2.8px;
-word-spacing: 0.2px;
+
+font-size: 1.2rem;
+
 color: white !important;
-font-weight: 700;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
+
 
 `;

@@ -14,9 +14,10 @@ export const Avo = styled.div`
   justify-content:center;align-items:center;
   @media(max-width:1400px){
     width:80vw;
-    margin-left:20vw;
+    margin-left:10vw;
     margin-top:20vh;
     margin-bottom:10vh;
+   
   }
   @media(max-width:420px){
  
@@ -30,24 +31,28 @@ export const Avo = styled.div`
   }
 `;
 export const Imagem = styled.div`
-width:100%;
-outline: 5px solid white;
-outline-offset: -5px;
+
 display:flex;
 border-radius:12px 12px 12px 12px ;
+width:38vw;
 img{
    
     border-radius:12px 12px 12px 12px ;
-    width:100%;
+    width:30vw;
 }
 
 @media(max-width:1400px){
-    width:260px;
-    height:160px;
-    margin-left:1vh;
-    margin-right:1vh;
-    outline: 1px solid white;
-outline-offset: 4px;
+    display:flex;
+border-radius:12px 12px 12px 12px ;
+width:38vw;
+justify-content:center ;
+
+img{
+   
+    border-radius:12px 12px 12px 12px ;
+    width:35vw;
+}
+   
 
  filter:drop-shadow(0px -8px -8px   radial-gradient(circle, #1b1c23, #1d1f26, #202229, #22252d, #252830, #232630, #20252f, #1e232f, #171d2b, #111626, #0a0e22, #01031e)); 
 }
@@ -66,8 +71,6 @@ outline-offset: 4px;
         border:none;
     }
 }
- 
-  
 `;
 export const TextoEmpresa = styled.div`
 display: grid;
@@ -86,21 +89,27 @@ grid-row-gap: 20px;
 @media(max-width:1400px){
     grid-row-gap: 5px;
     grid-column-gap: 1px;
-    width: 100vw;
+    width: 80vw;
+    margin:0;
+    .div1{ 
+      
+        width: 40vw;
+    }
     .div2{
         text-align:left;
-        width: 600px;
+        width: 40vw;
         font-size: calc(10px + 2vmin);
+      
     }
     .div4{
         text-align:right;
-        width:600px;
+        width:40vw;
         font-size: calc(10px + 2vmin);
-        margin-left:10vw;
+       
     }
     .div7{
         text-align:left;
-        width: 600px;
+        width:40vw;
         font-size: calc(10px + 2vmin);
     }
     
@@ -116,19 +125,22 @@ width: 380px;
         text-align:center;
         width: 380px;
         margin:0;
+        font-size: 1.2rem;
     }
     .div4{
         text-align:center;
         width:380px;
         margin:0;
-      
+        font-size: 1.2rem;
     }
     .div6{
+        font-size: 1.2rem;
         display: none;
     }
     .div7{
         text-align:center;
         width: 380px;
+        font-size: 1.2rem;
         margin:0;
     }
 span{
@@ -144,24 +156,21 @@ export const TextoAnimado = styled.div`
     text-decoration:none;
     color: white;
     
-    font-size: 20pt;
-    letter-spacing: 2.8px;
-    word-spacing: 0.2px;
+    font-size: 1.2rem;
+    
     color: white;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    padding: 12px;
+ 
     width: 97%;
     
     background: transparent;
     @media(max-width:1400px){
-        font-size: 12pt;
+        font-size: 1.2rem;
         width: 600px;
   }
   @media(max-width:420px){
 display: flex !important;
 width: 80vw;
+font-size: 1.2rem;
   span{
     display: flex !important;
     justify-content: center;
@@ -170,26 +179,4 @@ width: 80vw;
   }
 }
 `;
-export const Foto = styled.img`
-width: 80vw;
-margin-bottom:5%;
-background-color: white;
-position:relative;
-margin-top:20vh;
-border-radius:12px 12px 12px 12px ;
-   
-    @media(max-width:1400px){
-        
-        outline: 1px solid white;
-        outline-offset: 4px;
-        border-radius:0px 0px 0px 0px ;
-        margin-top:10vh;
-        margin-bottom:1%;
-        width: 100vw;
-    }
-    @media(max-width:400px){
-        margin-top:0vh;
-        border: solid black 1px;
-        width: 50vw;
-    }
-`;
+

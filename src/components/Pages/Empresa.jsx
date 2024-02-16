@@ -2,7 +2,7 @@ import { Avo, TextoEmpresa, TextoAnimado, Foto, Imagem } from '../styled/Empresa
 import Foto1 from '../Imagens/foto2.png';
 import Foto2 from '../Imagens/6.jpg';
 import Foto3 from '../Imagens/15.jpg';
-import foto from '../Imagens/empresa.gif';
+
 function Empresa() {
     return (
 
