@@ -11,7 +11,8 @@ div{
     margin-bottom:10vh;
 }
 img{
-    width:80vw;
+    width:400px;
+    margin-top:5vw;
     border-radius:12px 12px 12px 12px ;
 }
 @media(max-width:1400px){
@@ -25,10 +26,7 @@ img{
     margin-bottom:10vh;    
 }
 img{
-    width:100%;
-   
-   
-    
+    width:300px;
     margin-left:3vh;
     margin-right:3vh;
     margin-bottom:1%;

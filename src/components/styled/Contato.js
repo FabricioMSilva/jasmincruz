@@ -332,97 +332,20 @@ input{
   
 `;
 export const BtnEnviar = styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
 
-
-background: transparent;
-width:100px;
+font-size:1rem;
+width:25vw;
 height:100px;
-display: flex;
-justify-content: center;
-margin-top:50px;
-h1 {
 
-  text-align: center;
-  color: blue;
-  font-size: 1.2rem;
-  font-family: "Cormorant Garamond", serif;
-}
-
-p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 1.2rem;
-  color: #676767;
-}
-.frame {
-  width: 90%;
-  margin: 40px auto;
-  text-align: center;
-}
-
-button {
-  margin: 20px;
-
-}
-.custom-btn {
-  width: 130px;
-  height: 40px;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 50;
-  background: black;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
-  outline: none;
-}
-.btn-5 {
-  font-size: 1.2rem;
-  width: 130px;
-  height: 40px;
-
-  box-shadow:none;
-  border: none;
-  color:WHITE;
-  background-color:transparent;
-}
-.btn-5:hover {
-  color: white;
-  background: transparent;
-   box-shadow:none;
-}
-.btn-5:before,
-.btn-5:after{
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  height:2px;
-  width:0;
-  background: white;
-  box-shadow:
-   -1px -1px 5px 0px #fff,
-   7px 7px 20px 0px #0003,
-   4px 4px 5px 0px #0002;
-  transition:400ms ease all;
-}
-.btn-5:after{
-  right:inherit;
-  top:inherit;
-  left:0;
-  bottom:0;
-}
-.btn-5:hover:before,
-.btn-5:hover:after{
-  width:100%;
-  transition:800ms ease all;
+input{
+width:40%;
+border:1px white solid;
+background-color:transparent;
+color:white;
+font-size:1rem;
 }
 
 `;

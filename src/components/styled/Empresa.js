@@ -37,20 +37,21 @@ border-radius:12px 12px 12px 12px ;
 width:38vw;
 img{
    
-    border-radius:12px 12px 12px 12px ;
-    width:30vw;
+    width:80%;
+    
 }
 
 @media(max-width:1400px){
     display:flex;
-border-radius:12px 12px 12px 12px ;
+background-color:transparent !important;
 width:38vw;
 justify-content:center ;
 
 img{
    
-    border-radius:12px 12px 12px 12px ;
-    width:35vw;
+    background-color:transparent !important;
+    width:350px;
+    height:480px;
 }
    
 

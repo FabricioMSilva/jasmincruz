@@ -1,13 +1,14 @@
 import { Avo, TextoEmpresa, TextoAnimado, Foto, Imagem } from '../styled/Empresa.js';
 import Foto1 from '../Imagens/foto2.png';
-import Foto2 from '../Imagens/6.jpg';
-import Foto3 from '../Imagens/15.jpg';
+import Foto2 from '../Imagens/6.png';
+import Foto3 from '../Imagens/15.png';
 
 function Empresa() {
     return (
 
         <Avo>
             <TextoEmpresa>
+                
                 <TextoAnimado className='div2'>
                     <span >
                         A JasmimCruz é uma empresa que atua no segmento de transporte de passageiros, atendendo pessoas físicas e jurídicas,

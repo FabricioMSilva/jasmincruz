@@ -65,13 +65,16 @@ function Contato() {
                             ></input>
                         </label>
 
-                        <BtnEnviar>
+                        
+                    </Menssagem>
+                    <BtnEnviar>
                             <input
                                 className="button"
                                 type="submit"
-                                value="Enviar" />
-                        </BtnEnviar>
-                    </Menssagem>
+                                value="Enviar" 
+                                onClick={''}/>
+                                 
+                    </BtnEnviar>
                 </form>
             </Cadastro>
         </Avo>
